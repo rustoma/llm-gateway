@@ -5,8 +5,8 @@ detailed files are written when you reach them.
 
 ## GW-M0 · Setup
 - [ ] GW-001 Install Go and your tools
-- [ ] GW-002 Create the repository on GitHub
-- [ ] GW-003 Set up your AI coding assistant
+- [x] GW-002 Create the repository on GitHub
+- [x] GW-003 Set up your AI coding assistant
 - [ ] GW-004 Turn tickets into GitHub issues and a project board
 
 ## GW-M1 · Go basics
