@@ -45,12 +45,16 @@ evidence is not met.
 
 1. Use the `code-review` skill on the branch.
 2. Commit in small, readable commits; the subject is imperative and under 72 characters.
-3. Open the pull request with the ticket id in the title and `Closes #<issue>` in the body, plus
+3. Find the issue number for this ticket — it is not the ticket number:
+   ```
+   gh issue list --search "GW-007" --state all --json number,title
+   ```
+4. Open the pull request with the ticket id in the title and `Closes #<issue>` in the body, plus
    the acceptance criteria as a checklist with evidence.
    ```
    gh pr create --title "GW-007 · Errors and defer" --body "Closes #11 ..."
    ```
-4. CI must be green (from GW-012 on).
+5. CI must be green (from GW-012 on).
 
 ## 5. Finish — "Explain it back"
 
